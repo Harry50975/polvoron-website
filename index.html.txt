@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Harry's Sweet Polvoron</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:#fff5ee;
+}
+
+header{
+    background:#8b4513;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+nav{
+    background:#d2691e;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    padding:40px;
+}
+
+.product{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+img{
+    width:100%;
+    max-width:300px;
+    border-radius:10px;
+}
+
+button{
+    background:#8b4513;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+footer{
+    background:#8b4513;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Harry's Sweet Polvoron</h1>
+    <p>Delicious Homemade Filipino Treats</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+
+    <h2>Welcome to Our Store</h2>
+
+    <p>
+        We sell delicious homemade polvoron made with love and quality ingredients.
+    </p>
+
+</section>
+
+<section>
+
+    <h2>Our Products</h2>
+
+    <div class="product">
+
+        <h3>Classic Polvoron</h3>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Polvoron.jpg">
+
+        <p>Sweet and creamy classic polvoron.</p>
+
+        <p><strong>₱100 per box</strong></p>
+
+        <button>Order Now</button>
+
+    </div>
+
+    <div class="product">
+
+        <h3>Cookies and Cream Polvoron</h3>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Polvoron.jpg">
+
+        <p>Cookies and cream flavored polvoron.</p>
+
+        <p><strong>₱120 per box</strong></p>
+
+        <button>Order Now</button>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>About Us</h2>
+
+    <p>
+        Harry's Sweet Polvoron is a small local business dedicated to making affordable and delicious Filipino delicacies.
+    </p>
+
+</section>
+
+<section>
+
+    <h2>Contact Us</h2>
+
+    <p>📱 09123456789</p>
+    <p>📧 harrypolvoron@gmail.com</p>
+    <p>📍 Claveria, Misamis Oriental</p>
+
+</section>
+
+<footer>
+    <p>© 2026 Harry's Sweet Polvoron</p>
+</footer>
+
+</body>
+</html>
+
